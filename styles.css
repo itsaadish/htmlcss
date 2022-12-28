@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+  }
+  .container {
+    display: flex;
+    height: 400px;
+    /* display: inline-flex; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: row; */
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
+    /* flex-flow: column wrap; */
+    /* column-gap: 20px; */
+    /* row-gap: 20px; */
+    /* gap: 40px 20px; */
+    /* justify-content: center; */
+    /* justify-content: space-evenly; */
+    /* align-items: stretch; */
+    border: 6px solid black;
+  }
+  .flex-item {
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+    /* flex-shrink: 0; */
+  }
+  .item-1 {
+    background-color: #b4bf35;
+    /* flex-basis: auto; */
+    align-self: flex-start;
+  }
+  .item-2 {
+    background-color: #b95f21;
+  }
+  .item-3 {
+    background-color: #1c4c56;
+    /* order: 1; */
+  }
+  .item-4 {
+    background-color: #cfb276;
+  }
+  .item-5 {
+    background-color: #6b0803;
+    /* flex-grow: 1; */
+  }
+  .item-6 {
+    background-color: #1c4c56;
+  }
+  .item-7 {
+    background-color: #b95f21;
+    /* order:2; */
+  }
+  .item-8 {
+    background-color: #01243a;
+  }
+  .item-9 {
+    background-color: #aad041;
+  }
+  Footer
+  © 2022 GitHub, In
